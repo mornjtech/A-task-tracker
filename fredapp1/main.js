@@ -76,7 +76,7 @@ function fetchTasks() {
     tasksList.innerHTML +=   '<div class="well">'+
                               '<h6>task ID: ' + id + '</h6>'+
                               '<p><span class="label label-info">' + status + '</span></p>'+
-                              '<h3>' + desc + '</h3>'+
+                              '<h6>' + desc + '</h6>'+
                               '<p><span class="glyphicon glyphicon-time"></span> ' + severity + '</p>'+
                               '<p><span class="glyphicon glyphicon-user"></span> ' + assignedTo + '</p>'+
                               '<a href="#" onclick="setStatusClosed(\''+id+'\')" class="btn btn-warning">Close</a> '+
